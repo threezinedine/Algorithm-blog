@@ -72,3 +72,39 @@
         display: block;
     }
 }
+
+
+#my-card-img {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+
+
+#name-title {
+    font-size: 1.5rem;
+}
+
+
+#role-title {
+    font-size: 0.8rem; 
+}
+
+#hust-target {
+    color: #189bf2;
+}
+
+#hust-target:hover {
+    color: #189bf2;
+    text-decoration: none;
+}
+
+#portfolio-navbar {
+    height: 50vw;
+    overflow: auto;
+}
+
+#portfolio-content {
+    height: 50vw;
+    overflow: auto;
+}
