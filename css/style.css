@@ -99,12 +99,24 @@
     text-decoration: none;
 }
 
-#portfolio-navbar {
-    height: 50vw;
-    overflow: auto;
+
+#brand {
+    width: 5rem;
+    height: 5rem;
 }
 
-#portfolio-content {
-    height: 50vw;
-    overflow: auto;
+#post-title {
+    font-size: 2rem;
+}
+
+
+.post-img {
+    height: 25vw;
+    object-fit: cover;
+}
+
+
+.read-link:hover {
+    text-decoration: underline; 
+    color: #5f5f5f;
 }
